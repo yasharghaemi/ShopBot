@@ -4,7 +4,7 @@ from telegram import ReplyKeyboardMarkup
 from telegram.ext import (Updater, CommandHandler, MessageHandler, Filters,
                           ConversationHandler)
 
-VERIFICATION_TOKEN = "841052885:AAHzY9v0Q_waTOFJsdnYtVcdMjyBVKJ9nyI"
+VERIFICATION_TOKEN = "1060803281:AAE1FDkIrwTnWGIDYhD96_4BQ4xcInHXghM"
 
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
