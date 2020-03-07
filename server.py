@@ -3,9 +3,10 @@ import logging
 from telegram import ReplyKeyboardMarkup
 from telegram.ext import (Updater, CommandHandler, MessageHandler, Filters,
                           ConversationHandler)
-from ShopBot import state
+
 import profile
 from ShopBot.controllers import profile_management
+import ShopBot.state as state
 
 VERIFICATION_TOKEN = "1060803281:AAE1FDkIrwTnWGIDYhD96_4BQ4xcInHXghM"
 
@@ -17,7 +18,9 @@ logger = logging.getLogger(__name__)
 
 # MAIN_MENU, PROFILE, SEARCH_PRODUCT, EDIT_PROFILE, DISPLAY_PROFILE = range(5)
 
-reply_keyboard = [['Profile'], ['Search Product'], ['About', 'Done']]
+reply_keyboard = [['Profile'],
+                  ['Search Product'],
+                  ['About', 'Done']]
 markup = ReplyKeyboardMarkup(reply_keyboard, one_time_keyboard=True)
 
 
@@ -113,9 +116,12 @@ def main():
                             MessageHandler(Filters.regex('^.*(Edit|edit|Modify|modify).*$'), profile.edit),
                             MessageHandler(Filters.regex('^(Back|back|Main|main)$'), start)],
 
-
-            state.EDIT_PROFILE: [MessageHandler(Filters.regex('^.*(First|first).*$'), profile.edit_firstname),
+            state.EDIT_PROFILE: [MessageHandler(Filters.regex('^.*(First|first).*$'), profile.goto_firstname_state),
                                  MessageHandler(Filters.regex('^.*(Back|back|Main|main).*$'), profile.profile)],
+            state.EDIT_FNAME: [MessageHandler(Filters.text, profile.edit_firstname)],
+
+            # state.EDIT_PROFILE: [CommandHandler(Filters.regex('^.*(First|first).*$'), profile.edit_firstname),
+            #                      MessageHandler(Filters.regex('^.*(Back|back|Main|main).*$'), profile.profile)],
 
             state.SEARCH_PRODUCT: [MessageHandler(Filters.text, start)]
         },
