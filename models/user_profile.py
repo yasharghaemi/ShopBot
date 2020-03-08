@@ -10,7 +10,6 @@ def find_user_by_uid(user_id):
     return user_profile
 
 
-
 def insert_by_uid(user_id, firstname, lastname):
     my_dec = {"user_id": user_id, "first_name": firstname, "last_name": lastname}
     x = my_col.insert_one(my_dec)
@@ -19,7 +18,6 @@ def insert_by_uid(user_id, firstname, lastname):
 def update_by_uid(user_id, field, value):
     query = {"user_id": user_id}
     update_set = {"$set": {field: value}}
-
     x = my_col.update(query, update_set)
 
 
