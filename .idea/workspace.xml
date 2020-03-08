@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8452ddf8-3b96-4c46-bcb1-870091aa66b6" name="Default Changelist" comment="" />
+    <list default="true" id="8452ddf8-3b96-4c46-bcb1-870091aa66b6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/profile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +19,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YiuNnaPD9MD2WpMHw7C4sgUOpg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -70,6 +82,96 @@
       <option name="presentableId" value="Default" />
       <updated>1583437698781</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add Profile Display">
+      <created>1583527755424</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583527755425</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add Edit Firstname without database">
+      <created>1583532632899</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583532632899</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add user on the start and edit user's firstname">
+      <created>1583607881259</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583607881259</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add user's lastname on start">
+      <created>1583608559399</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583608559399</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add edit gender">
+      <created>1583616021429</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583616021429</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add display user's json">
+      <created>1583616582156</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583616582156</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add display">
+      <created>1583618721275</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583618721275</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add keyboard resize">
+      <created>1583618958189</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583618958189</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add profile edit_shirtsize">
+      <created>1583644399690</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583644399690</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add Profile Display" />
+    <MESSAGE value="Add Edit Firstname without database" />
+    <MESSAGE value="add user on the start and edit user's firstname" />
+    <MESSAGE value="add user's lastname on start" />
+    <MESSAGE value="add edit gender" />
+    <MESSAGE value="add display user's json" />
+    <MESSAGE value="add display" />
+    <MESSAGE value="add keyboard resize" />
+    <MESSAGE value="add profile edit_shirtsize" />
+    <option name="LAST_COMMIT_MESSAGE" value="add profile edit_shirtsize" />
   </component>
 </project>
